@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- meta tag ve sahip olduğu bir attributes sayesinde hazırlamış olduğumuz web sayfasının google gibi arama motorunda nasıl ve hangi bilgiler ile listeleneceğini ayarlayabiliriz -->
+    <!-- meta tag ve sahip olduğu bir attributes sayesinde hazırlamış olduğumuz web sayfasının google gibi arama motorunda nasıl ve hangi bilgiler ile listeleneceğini ayarlayabiliriz www.w3schools.com/tags/ sitesine bütün HTML element ve attributesleri için bak-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bu sitede Mustafa Bülent HALICIOĞLU ile ilgili bilgiler yer almaktadır">
     <title>Mustafa Bülent HALICIOGLU</title>
 </head>
 <body>
     <!-- başlığın üstüne veya altına bir resim eklenebilir -->
     <h1>Mustafa Bülent HALICIOĞLU</h1>
+    <hr size="3" color="black">
+    <!-- hr horizantal cizgi anlamına geliyor ve size color width noshade gibi attributesleri var-->
     <h3>Hakkımda</h3>
-    <p>Merhabalar! Ben Mustafa Bülent HALICIOĞLU. Sosyal bilimler alanında çalışmalar yaparken, kendimi birden <strong><a href="https://app.patika.dev">patika.dev</a></strong> sayesinde farklı bir alanda buldum ve bu alanı çok sevdim. Kitap okumaktan ve dizi izlemekten çok hoşlanırım. Bu sıralar en çok severek takip ettiğim dizi Yargı.</p>
+    <p>Merhabalar! Ben Mustafa Bülent HALICIOĞLU. Sosyal bilimler alanında çalışmalar yaparken, kendimi birden <strong><a href="https://app.patika.dev">patika.dev</a></strong> sayesinde farklı bir alanda buldum ve bu alanı çok sevdim. Kitap okumaktan ve dizi izlemekten çok hoşlanırım. Bu sıralar en çok severek takip ettiğim dizi <b><a href="https://www.kanald.com.tr/yargi">Yargı</a></b>.</p>
     <p>Bu web sayfasında hobilerimden kısaca bahse etmek istiyorum.</p>
     <!-- hobilerimi unordered list olarak vermek daha doğru olacak -->
     <h2>Hobilerim</h2>
@@ -23,12 +26,14 @@
     <!-- Burada ordered list oluşturmak sanki daha mantıklı gibi -->
     <H2>Sevdiğim Diziler</H2>
     <ol>
+        <!-- resimleri aslında img dosyasından da ekleyebilirdim ancak URL vermeyi tercih ettim -->
         <li><b><a href="https://www.kanald.com.tr/yargi">Yargı</a></b></li>
-        <img src="img\yargi.jpg" alt="Yargı dizisinin afişi">
+        <img width="120" src="https://i.hizliresim.com/ckcs1m1.jpg" alt="Yargı dizisinin afişi">
+        <!-- img atributesleri width size vs.-->
+        <P>Yargı dizisi gerçekten hem konusu ile hem müziği ile hem de oyunculuk açısından beni çok etkilemekte. Her bölümün nasıl biteceğini merak etmek çok çarpıcı.</P>
         <li><b><a href="https://www.imdb.com/title/tt2306299/">Vikings</a></b></li>
-    </ol>
-
-
-    
+        <img width="120" src="https://i.hizliresim.com/pyxuscy.jpg" alt="">
+        <p>Viking dizisi de çok severek takip ettiğim bir dizi olmuştur.</p>
+    </ol>    
 </body>
 </html>
