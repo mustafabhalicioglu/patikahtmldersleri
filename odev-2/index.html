@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ben bir önceki (birinci) HTML ödevinde aslında bu ödevde istenen neredeyse her şeyi yapmışım-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bu sitede Mustafa Bülent HALICIOĞLU ile ilgili bilgiler yer almaktadır">
+    <title>Mustafa Bülent HALICIOGLU</title>
+</head>
+<body>
+    <!-- başlığın üstüne veya altına bir resim eklenebilir -->
+    <h1 id="baslik">Mustafa Bülent HALICIOĞLU</h1>
+    <hr size="3" color="black">
+    <!-- hr horizantal cizgi anlamına geliyor ve size color width noshade gibi attributesleri var-->
+    <div>
+        <h3>Hakkımda</h3>
+            <p>Merhabalar! Ben <i>Mustafa Bülent HALICIOĞLU</i> . Sosyal bilimler alanında çalışmalar yaparken, kendimi birden <strong><a href="https://app.patika.dev" target="_blank">patika.dev</a></strong> sayesinde farklı bir alanda buldum ve bu alanı çok sevdim. Kitap okumaktan ve dizi izlemekten çok hoşlanırım. Bu sıralar en çok severek takip ettiğim dizi <b><a href="https://www.kanald.com.tr/yargi" target="_balank">Yargı</a></b>. 
+            <br><br> İrtibat bilgilerime <a href="#irtibat"><b>buradan</b></a> ulaşabilirsiniz.</p>
+            <p>Bu web sayfasında kısaca <strong><em>ilgi alanlarımdan</em> </strong> bahse etmek istiyorum.</p>
+    </div>
+    <!-- ödevde belirtildiği gibi BLOCK elememt olarak <div> tag kullandım. 
+        <div> ve <p> tag leri en sık kullanılan BLOCK elementler
+        INLINE element olarak da zaten <a>, <b>, <br>, <img>, <em>, <button>, <span> gibi elementler bu dosyanın içerisinde sıklıkla kulllanıldı.
+            -->
+    <div>
+        <h2>İLGİ ALANLARIM</h2>
+        <ol>
+            <li><b>Film</b></li>
+                <ul>
+                    <li> <a href="https://www.imdb.com/title/tt0068646/" target="_blank">Godfather</a></li>
+                    <li>Cruella</li>
+                    <li>Gladiator</li>
+                </ul>
+            <li><b>Dizi</b></li>
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt2306299/" target="_blank">Vikings</a></li>
+                    <li>Yargı</li>
+                    <li>Mahkum</li>                    
+                </ul>
+            <li><b>Kitap</b></li>
+                <ul>
+                    <li><a href="https://www.goodreads.com/book/show/36117297-cennetin-do-usu?from_search=true&from_srp=true&qid=n9uCjLQUuq&rank=1" target="_blank"> Cennetin Doğusu</a></li>
+                    <li>Beyaz Diş</li>
+                    <li>Esir Şehrin İnsanları</li>
+                </ul>
+        </ol>
+    </div>
+    <!-- Burada ordered list oluşturmak sanki daha mantıklı gibi -->
+    <div>
+        <H2>Sevdiğim Diziler</H2>
+            <ol>
+                <!-- resimleri aslında img dosyasından da ekleyebilirdim ancak URL vermeyi tercih ettim resimlerin <blank> tagı ile başka sekmede açılmasını sağladım ve <title> tag'ı ile resimlerin üzerine gelindiğinde görünmesini istediğim şeyi yazdım-->
+                <li><b><a href="https://www.kanald.com.tr/yargi" target="_blank" >Yargı</a></b></li>
+                <img width="120" src="https://i.hizliresim.com/ckcs1m1.jpg" alt="Yargı dizisinin afişi" title="Yargı Dizisinin Afişi">
+                <!-- <img> atributesleri width size vs.-->
+                <P>Yargı dizisi gerçekten hem konusu ile hem müziği ile hem de oyunculuk açısından beni çok etkilemekte. Her bölümün nasıl biteceğini merak etmek çok çarpıcı.</P>
+                <li><b><a href="https://www.imdb.com/title/tt2306299/" target="_blank" >Vikings</a></b></li>
+                <img width="120" src="https://i.hizliresim.com/pyxuscy.jpg" alt="Viking dizisinin afişi" title="Vikings Dizisinin Afişi">
+                <p>Viking dizisi de çok severek takip ettiğim bir dizi olmuştur.</p>
+            </ol>    
+    </div>
+        <br>
+    <br>
+    <br>
+    <hr>
+    <h5 id="irtibat"><span style="color:blue;">İrtibat Bilgileri</span> </h5>
+           <p>Adres :**********</p>
+        <p>Tel   :0(000)0000000</p>
+        <p>e-mail:******@******.com</p>
+    <br>
+    <!-- Sayfa içinde link verme için hem target hedefe ID vermek hem de a tagı içerisinde # kullanarak o ID'yi belirtmek gerekiyor. bunu hem burada hem de en başta yaptım-->
+       <button><a href="#baslik"><span style="color:blue ;">Başa Dön</span></a></button>
+</body>
+</html>
